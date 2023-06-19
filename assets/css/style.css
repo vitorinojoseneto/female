@@ -1,0 +1,473 @@
+*{
+ padding:0;
+ margin:0;
+ list-style: none;
+ text-decoration: none;
+ border: none;
+ font-family:Arial, Helvetica, sans-serif;
+}
+/*
+* section header-main comecou here
+*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+* header comecou here
+*/
+/*testando slide*****************************************************************/
+@keyframes testen {
+    0% {background:linear-gradient( #0005, #0007), url('../images/lider.jpg');background-size: 100%;}
+    25% {background:linear-gradient( #0005, #0009),url('../images/fones_post.jpg');background-size: 100%}
+    50% {background:linear-gradient( #0005, #0009),url('../images/tres-jovens-lindas-meninas-sorridentes-em-roupas-de-jeans-casual-de-verao-na-moda-mulheres-sexy-despreocupadas-posando-modelos-positivos-em-oculos-de-sol_158538-4730.webp');background-size: 100%}
+    75% {background:linear-gradient( #0005, #0009),url('../images/pexels-alexandr-podvalny-1175015.jpg');background-size: 100%}
+   100% {background:linear-gradient( #0004, #0008), url('../images/pessoas-daltonicas_enchroma1_blog-da-engenharia.jpg');background-size: 100%}
+}
+.header-main{
+    animation-name: testen;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+.main{
+    width: 100%;
+    height: 660px;
+}
+/************************************************/
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+#here{
+    color: rgb(71, 59, 173);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    margin-left:10px ;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link-in{
+    color: white;
+}
+/*
+*header terminou here
+*/
+/*
+* primeira section comecou here
+*/
+
+.first-section{
+    display: block;
+    width: 100%;
+    height: 170px;
+    margin: 170px auto;
+}
+@keyframes cancel {
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.h3_fs{
+    text-align:center;
+    letter-spacing: 10px;
+    font-size: 30pt;
+    color: white;
+    animation-name: cancel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes test-on {
+    
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.test-on{
+    text-align:center;
+    letter-spacing: 10px;
+    font-size: 30pt;
+    color: white;
+    animation-name: test-on;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+}
+.paragraph-first-s{
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 35px;
+    color: #fff8;
+}
+.card{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    background: rgba(247, 240, 244, 0.6);
+    margin-top: 118px;
+}
+.fix_issues{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-parag{
+    display: block;
+    margin: 50px auto;
+    width: 25%;
+    height: 20px;
+    text-align: center;
+}
+/*
+*segunda section comecou here
+*/
+.seconds-section{
+    background: linear-gradient(370deg,deeppink 70%,grey 60%,grey 80%);
+}
+.lost{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+    margin-bottom: 80px;
+    height: 500px;
+}
+.lose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.one{
+    width: 45%;
+    height: 450px;
+}
+.img-lose{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border: 2px dashed thistle;
+    border-radius: 5px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 45%;
+}
+.paragraph-lose{
+    color:#0009;
+    letter-spacing: 2px;
+}
+.paragraph-lose-two{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: #0009;
+    letter-spacing: 2px;
+}
+.graphic{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.child{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+.icon-child{
+    text-align: center;
+    color: goldenrod;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.para-child{
+    text-align: center;
+    color: gray;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+  /*
+  * treceira section comecou here
+  */
+/*
+*quarta section comecou here
+*/
+.fouth-section{
+    background: linear-gradient(-90deg,#0009,#0009,#0009,#fff7,#fff7),url('../images/depositphotos_44845953-stock-photo-three-beautiful-enticing-glamorous-woman.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+}
+.tittle-fouth{
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 10px;
+    padding-top: 30px;
+    color: white;
+
+}
+.paragraph-fouth{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.child-our-fouth-2{
+    width: 50%;
+    height: 650px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background:#ccc9 ;
+    padding: 30px;
+}
+.un{
+    margin: 30px 0px ;
+    padding: 20px;
+}
+.p-un{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0007;
+}
+.www-1{
+    background-color: deeppink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+.wvc{
+    color: white;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.www-2{
+    border: 1px solid #ccc7;
+    border-radius: 5px;
+    text-align: left;
+    margin: 3px 0px;
+    padding:40px 20px;
+    height: 200px;
+}
+.www{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ccc7;
+    background-color:transparent;
+    border-radius: 5px;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+
+/*
+* quinta section comecou here
+*/
+/***/
+.sex-section{
+    background-color: blanchedalmond;
+}
+.it{
+text-align :center;
+color:black;
+padding-top: 50px;
+font-size: 20pt;
+font-weight:bold;
+letter-spacing: 5px;
+}
+.et{
+text-align :center;
+color:#0007;
+font-weight:100;
+font-size:15pt;
+padding: 50px;
+}
+.camp{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.subscrever{
+width:50%;
+padding: 10px;
+border-bottom: 1px solid grey;
+background-color: transparent;
+font-size: 14pt;
+}
+.send{
+width:25%;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 3px;
+cursor: pointer;
+font-size: 12pt;
+background-color: deeppink;
+border-radius: 5px;
+color: white;
+}
+
+/***/
+
+.section-anexo{
+    background:rgba(00,00,00,.9);
+    height:300px;
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.gonna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 10px;
+}
+.gun{
+ display:flex;
+ justify-content: center;
+ color: white;
+ margin-bottom: 15px;
+}
+.fa-3x{
+    color: white;
+}
+.parag-shield{
+    text-align: center;
+    color: white;
+}
+/***/
+.laster{
+    background:rgba(00,00,00,.7);
+    padding: 50px;
+}
+.laster-first-div{
+    display: flex;
+    flex-direction: row;
+}
+.mmm{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.h-tres{
+    font-size: 15px;
+    text-align: left;
+    margin: 40px 0px;
+}
+.parag-about{
+    color: grey;
+    padding-right: 30px;
+    width: 80%;
+}
+.network-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height:60px;
+    margin: 40px 0px;
+}
+.net{
+    color: goldenrod;
+}
+.gato{
+    display: flex;
+    flex-direction: row;
+}
+.legenda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.ajuste{
+    display: flex;
+    margin: 10px 0px;
+}
+.arrow{
+    color: goldenrod;
+    margin-right: 10px;
+}
+.parag-just{
+    color: white;
+    text-align:left ;
+}
+.img-footer{
+    width: 50%;
+    margin-left: 20px;
+}
+.laster-img{
+    width: 200px;
+    height: 150px;
+}
+
+.remate{
+    margin-left: 70px;
+    width: 60%;
+}
+footer{
+    border-top: 1px solid #000;
+    background-color:goldenrod;
+    padding: 10px;
+  }
+.footer-paragraph{
+    text-align: center;
+    padding: 12px;
+    color: black;
+  }
