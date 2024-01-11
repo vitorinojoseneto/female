@@ -22,18 +22,19 @@
 @keyframes testen {
     0% {background:linear-gradient( #0005, #0007), url('../images/lider.jpg');background-size: 100%;}
     25% {background:linear-gradient( #0005, #0009),url('../images/fones_post.jpg');background-size: 100%}
-    50% {background:linear-gradient( #0005, #0009),url('../images/tres-jovens-lindas-meninas-sorridentes-em-roupas-de-jeans-casual-de-verao-na-moda-mulheres-sexy-despreocupadas-posando-modelos-positivos-em-oculos-de-sol_158538-4730.webp');background-size: 100%}
-    75% {background:linear-gradient( #0005, #0009),url('../images/pexels-alexandr-podvalny-1175015.jpg');background-size: 100%}
-   100% {background:linear-gradient( #0004, #0008), url('../images/pessoas-daltonicas_enchroma1_blog-da-engenharia.jpg');background-size: 100%}
+    50% {background:linear-gradient( #0005, #0009),url('../images/pexels-marcus-vinícius-a-ribeiro-2825033.jpg');background-size: 100%}
+    75% {background:linear-gradient( #0005, #0009),url('../images/pexels-yuri-manei-2312250.jpg');background-size: 100%}
+   100% {background:linear-gradient( #0004, #0008), url('../images/pexels-max-andrey-2669601.jpg');background-size: 100%}
 }
 .header-main{
     animation-name: testen;
-    animation-duration: 30s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    transition: .3s all;
 }
 .main{
     width: 100%;
-    height: 660px;
+    min-height: 100vh;
 }
 /************************************************/
 .principal{
@@ -53,19 +54,18 @@
 ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
 }
 #here{
-    color: rgb(71, 59, 173);
+    color: deeppink;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-li{
-    margin-left:10px ;
-    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 .link-in{
     color: white;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*
 *header terminou here
@@ -73,89 +73,44 @@ li{
 /*
 * primeira section comecou here
 */
-
 .first-section{
-    display: block;
-    width: 100%;
-    height: 170px;
-    margin: 170px auto;
-}
-@keyframes cancel {
-    0%{opacity: 1;}
-    25%{opacity: 0;}
-    50%{opacity: 1;}
-    75%{opacity: 0;}
-    100%{opacity: 1;}
-}
-.h3_fs{
-    text-align:center;
-    letter-spacing: 10px;
-    font-size: 30pt;
-    color: white;
-    animation-name: cancel;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-delay: 1000ms;
-}
-
-@keyframes test-on {
-    
-    0%{opacity: 0;}
-    25%{opacity: 1;}
-    50%{opacity: 0;}
-    75%{opacity: 1;}
-    100%{opacity: 0;}
-}
-.test-on{
-    text-align:center;
-    letter-spacing: 10px;
-    font-size: 30pt;
-    color: white;
-    animation-name: test-on;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-delay: 500ms;
-}
-.paragraph-first-s{
-    text-align: center;
-    font-size: 18pt;
-    margin-top: 35px;
-    color: #fff8;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    height: 93vh;
 }
 .card{
     display: flex;
     flex-direction:row;
     align-items: center;
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
     background: rgba(247, 240, 244, 0.6);
-    margin-top: 118px;
 }
 .fix_issues{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-}
-.card-parag{
-    display: block;
-    margin: 50px auto;
-    width: 25%;
-    height: 20px;
-    text-align: center;
+    height: 100px;
 }
 /*
 *segunda section comecou here
 */
 .seconds-section{
-    background: linear-gradient(370deg,deeppink 70%,grey 60%,grey 80%);
-}
-.lost{
-    background-color:white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(-370deg,deeppink 70%,grey 60%,grey 80%);
+}
+.lost{
+    display: flex;
+    align-items: center;
     padding: 25px 10px;
-    margin-bottom: 80px;
-    height: 500px;
+    height: 60vh;
+    margin-bottom: 200px;
+    background-color:white;
 }
 .lose{
     display: flex;
@@ -169,12 +124,11 @@ li{
 }
 .img-lose{
     width: 100%;
-    height: 450px;
+    height: 100%;
     object-fit: cover;
     border: 2px dashed thistle;
     border-radius: 5px;
 }
-
 .two{
     display: flex;
     flex-direction: column;
@@ -216,7 +170,7 @@ li{
 }
 .icon-child{
     text-align: center;
-    color: goldenrod;
+    color: deeppink;
 }
 h5{
     text-align: center;
@@ -425,7 +379,7 @@ color: white;
     margin: 40px 0px;
 }
 .net{
-    color: goldenrod;
+    color: deeppink;
 }
 .gato{
     display: flex;
@@ -441,7 +395,7 @@ color: white;
     margin: 10px 0px;
 }
 .arrow{
-    color: goldenrod;
+    color: deeppink;
     margin-right: 10px;
 }
 .parag-just{
@@ -463,7 +417,7 @@ color: white;
 }
 footer{
     border-top: 1px solid #000;
-    background-color:goldenrod;
+    background-color:deeppink;
     padding: 10px;
   }
 .footer-paragraph{
